@@ -104,17 +104,17 @@ Future<void> createTicket()async{
    }
 }
 
-clearData(){
-  nameController.clear();
-  contactController.clear();
-  emailController.clear();
-  subjectController.clear();
-  accountNameController.clear();
-  descriptionController.clear();
-  ticketOwnerController.clear();
-  selectedDate.value="";
-  selectedImage.value="";
-  dueDateController.clear();
-}
+// clearData(){
+//   nameController.clear();
+//   contactController.clear();
+//   emailController.clear();
+//   subjectController.clear();
+//   accountNameController.clear();
+//   descriptionController.clear();
+//   ticketOwnerController.clear();
+//   selectedDate.value="";
+//   selectedImage.value="";
+//   dueDateController.clear();
+// }
 
 }
