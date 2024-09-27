@@ -16,7 +16,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(appBar: AppBar(title: const Text("Home"),),
     floatingActionButton:FloatingActionButton(
           onPressed: () {
-                //  _ticketHomeController.clearData();
+                 _ticketHomeController.clearData();
                  Get.toNamed(AppRoutes.createTicketId);
           },
           backgroundColor: AppColors.btnBlack,
